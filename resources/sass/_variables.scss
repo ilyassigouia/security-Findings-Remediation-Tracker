@@ -1,0 +1,97 @@
+// =============================================
+// SECENGINE — Hacker Theme Variables
+// =============================================
+
+// Color Palette
+$navy-950:  #020c1b;
+$navy-900:  #0a192f;
+$navy-800:  #112240;
+$navy-700:  #1d3557;
+$navy-600:  #233554;
+$navy-500:  #2d4a73;
+
+$green-400: #64ffda;
+$green-500: #0aff9d;
+$green-600: #00e676;
+$green-700: #00c853;
+
+$slate-100: #ccd6f6;
+$slate-300: #8892b0;
+$slate-500: #4a5568;
+
+// Bootstrap Overrides
+$body-bg:               $navy-950;
+$body-color:            $slate-100;
+
+$font-family-sans-serif: 'Inter', 'JetBrains Mono', sans-serif;
+$font-family-monospace:  'JetBrains Mono', monospace;
+$font-size-base:         0.95rem;
+$line-height-base:       1.7;
+
+// Navbar
+$navbar-dark-color:             rgba($slate-100, 0.8);
+$navbar-dark-hover-color:       $green-400;
+$navbar-dark-active-color:      $green-400;
+$navbar-dark-brand-color:       $green-400;
+$navbar-dark-brand-hover-color: $green-400;
+
+// Cards
+$card-bg:               $navy-800;
+$card-border-color:     $navy-600;
+$card-border-radius:    0.75rem;
+$card-color:            $slate-100;
+
+// Inputs
+$input-bg:              $navy-900;
+$input-border-color:    $navy-600;
+$input-color:           $slate-100;
+$input-placeholder-color: $slate-500;
+$input-focus-bg:        $navy-800;
+$input-focus-border-color: $green-400;
+$input-focus-color:     $slate-100;
+$input-focus-box-shadow: 0 0 0 0.2rem rgba($green-400, 0.15);
+
+// Dropdowns
+$dropdown-bg:           $navy-800;
+$dropdown-border-color: $navy-600;
+$dropdown-link-color:   $slate-100;
+$dropdown-link-hover-bg: $navy-700;
+$dropdown-link-hover-color: $green-400;
+
+// Tables
+$table-bg:              transparent;
+$table-color:           $slate-100;
+$table-border-color:    $navy-600;
+$table-hover-bg:        rgba($green-400, 0.05);
+$table-striped-bg:      rgba($navy-700, 0.4);
+
+// Badges
+$badge-font-size:       0.75em;
+$badge-padding-y:       0.4em;
+$badge-padding-x:       0.8em;
+$badge-border-radius:   0.4rem;
+
+// Buttons
+$btn-border-radius:     0.5rem;
+$btn-font-weight:       600;
+$btn-padding-x:         1.25rem;
+
+// Pagination
+$pagination-bg:         $navy-800;
+$pagination-border-color: $navy-600;
+$pagination-color:      $slate-300;
+$pagination-hover-bg:   $navy-700;
+$pagination-hover-color: $green-400;
+$pagination-active-bg:  $green-400;
+$pagination-active-border-color: $green-400;
+$pagination-active-color: $navy-950;
+$pagination-disabled-bg: $navy-900;
+$pagination-disabled-color: $slate-500;
+
+// Alerts
+$alert-border-radius:   0.6rem;
+
+// Border radius
+$border-radius:         0.5rem;
+$border-radius-lg:      0.75rem;
+$border-radius-xl:      1rem;
